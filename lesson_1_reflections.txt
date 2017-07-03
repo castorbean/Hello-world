@@ -1,0 +1,25 @@
+Use $ diff -u old-files-name new-file-name
+to see the difference between 2 files. This makes it much easier to debug than to do it by hand.
+
+Reflecting on the history of a file makes it much easier to find a bug if you can see the file when the code was working.
+Or to see how the code change affected the performance.
+
+Use commit to save a history of a file. Also ad a comment for reference in the future. This is an efficient way to remember what you did.
+Use add to start a file and the commit to update its history.
+
+By adding multiple files to a repository in Git you can track them all together.
+And a change in one file will change them all. This save a lot of time. Pretty cool feature.
+
+git log to look at all the changes made to a file 
+git diff old_file new_file to compare the changes between them. This is very useful.
+
+git checkout and then file # will pull out an old version of the file and then you can run it. Maybe your new file has
+a bug and you want to see if the old one did too.
+
+being able to go back to a working version of a file allows you to get creative and not worry about making a mess 
+that can't be fixed.
+
+git init   to get a empty repository
+ls -a to see the hidden directories. anything with .filename will be hidden
+
+git status  show which files changed since the last time you checked
